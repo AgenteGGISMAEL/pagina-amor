@@ -1,0 +1,140 @@
+/* Contenedor principal */
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f3e5f5;
+  overflow: hidden;
+}
+
+/* Carta cerrada */
+.closed-card {
+  width: 300px;
+  height: 200px;
+  background-color: #fff;
+  border: 2px solid #6a1b9a;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.6s ease;
+}
+
+.closed-card:hover {
+  transform: scale(1.05);
+}
+
+.open-message {
+  font-size: 2rem;
+  color: #6a1b9a;
+  font-family: 'Dancing Script', cursive;
+}
+
+/* Carta abierta */
+.open-card {
+  width: 80%;
+  max-width: 1000px;
+  max-height: 90vh; /* Ajusta el máximo alto de la carta */
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  overflow-y: auto; /* Permite el desplazamiento vertical */
+}
+/* Contenedor para el contenido que permitirá el desplazamiento */
+.content-scroll {
+  max-height: 60vh; /* Altura máxima para el desplazamiento */
+  overflow-y: auto; /* Permite el desplazamiento vertical */
+}
+
+/* Título */
+.dear-andre {
+  font-family: 'Dancing Script', cursive;
+  color: #6a1b9a;
+  font-size: 4rem;
+  margin-top: 2px;
+  margin-left: 350px;
+}
+
+/* Imagen */
+.love-image {
+  margin-top: 1px;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 320px;
+}
+
+/* Contenedor del corazón */
+.heart-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  margin-left: 320px;
+}
+
+.heart-button {
+  background-color: transparent;
+  border: none;
+  font-size: 3rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.heart-button:hover {
+  transform: scale(1.2);
+}
+
+.heart-message {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Contenedor del contenido */
+.content-container {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.poem-container,
+.message-container {
+  width: 50%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  position: relative;
+}
+
+.poem-container {
+  background-color: #fff;
+}
+
+.message-container {
+  background-color: #ffebee;
+}
+
+.poem-text,
+.message-text {
+  font-style: italic;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Estilo del tulipán */
+.tulip {
+  position: absolute;
+  top: -150px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: auto;
+  margin-top: -30px;
+}

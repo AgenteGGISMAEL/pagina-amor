@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/carta-2001de10.github.io/static/css/main.3bb4d757.css",
+    "main.js": "/carta-2001de10.github.io/static/js/main.97304f38.js",
+    "static/js/453.dba243c0.chunk.js": "/carta-2001de10.github.io/static/js/453.dba243c0.chunk.js",
+    "static/media/tulipan1.png": "/carta-2001de10.github.io/static/media/tulipan1.5a4d5d46fd37db09d1f8.png",
+    "index.html": "/carta-2001de10.github.io/index.html",
+    "main.3bb4d757.css.map": "/carta-2001de10.github.io/static/css/main.3bb4d757.css.map",
+    "main.97304f38.js.map": "/carta-2001de10.github.io/static/js/main.97304f38.js.map",
+    "453.dba243c0.chunk.js.map": "/carta-2001de10.github.io/static/js/453.dba243c0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3bb4d757.css",
+    "static/js/main.97304f38.js"
+  ]
+}
